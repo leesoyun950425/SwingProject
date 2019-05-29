@@ -14,12 +14,12 @@ public class BorderDelete extends JFrame{
 		setSize(241, 179);
 		getContentPane().setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("»èÁ¦ÇÏ½Ã°Ú½À±î?");
+		JLabel lblNewLabel = new JLabel("ì‚­ì œí•˜ì‹œê² ìŠµê¹Œ?");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBounds(30, 32, 169, 41);
 		getContentPane().add(lblNewLabel);
 		
-		JButton btnNewButton = new JButton("³×.");
+		JButton btnNewButton = new JButton("ë„¤.");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				BorderDAO dao = new BorderDAO();
@@ -33,7 +33,7 @@ public class BorderDelete extends JFrame{
 		btnNewButton.setBounds(30, 90, 63, 23);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("¾Æ´Ï¿ä.");
+		JButton btnNewButton_1 = new JButton("ì•„ë‹ˆìš”.");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
@@ -42,6 +42,5 @@ public class BorderDelete extends JFrame{
 		btnNewButton_1.setBounds(105, 90, 97, 23);
 		getContentPane().add(btnNewButton_1);
 		setVisible(true);
-		
 	}
 }

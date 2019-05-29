@@ -26,76 +26,76 @@ public class MembershipMain extends JFrame{
 	private JPasswordField pwTextTest;
 	public MembershipMain() {
 		
-		setTitle("È¸¿ø°¡ÀÔ Ã¢");
+		setTitle("íšŒì›ê°€ì… ì°½");
 		setBackground(new Color(255, 255, 224));
 		setSize(407, 368);
 		getContentPane().setLayout(null);
 		
-		JLabel lblNewLabel_1 = new JLabel("¾ÆÀÌµğ");
+		JLabel lblNewLabel_1 = new JLabel("ì•„ì´ë””");
 		lblNewLabel_1.setForeground(new Color(178, 34, 34));
-		lblNewLabel_1.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_1.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_1.setBounds(12, 46, 100, 15);
 		getContentPane().add(lblNewLabel_1);
 		
-		JLabel lblNewLabel_2 = new JLabel("ºñ¹Ğ¹øÈ£");
+		JLabel lblNewLabel_2 = new JLabel("ë¹„ë°€ë²ˆí˜¸");
 		lblNewLabel_2.setForeground(new Color(178, 34, 34));
-		lblNewLabel_2.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_2.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_2.setBounds(12, 82, 100, 15);
 		getContentPane().add(lblNewLabel_2);
 		
-		JLabel lblNewLabel_3 = new JLabel("ºñ¹Ğ¹øÈ£ È®ÀÎ");
+		JLabel lblNewLabel_3 = new JLabel("ë¹„ë°€ë²ˆí˜¸ í™•ì¸");
 		lblNewLabel_3.setForeground(new Color(178, 34, 34));
-		lblNewLabel_3.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_3.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_3.setBounds(12, 117, 100, 15);
 		getContentPane().add(lblNewLabel_3);
 		
-		JLabel lblNewLabel_4 = new JLabel("ÀÌ¸§");
+		JLabel lblNewLabel_4 = new JLabel("ì´ë¦„");
 		lblNewLabel_4.setForeground(new Color(178, 34, 34));
-		lblNewLabel_4.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_4.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_4.setBounds(12, 151, 100, 15);
 		getContentPane().add(lblNewLabel_4);
 		
-		JLabel lblNewLabel_5 = new JLabel("ÀüÈ­¹øÈ£");
+		JLabel lblNewLabel_5 = new JLabel("ì „í™”ë²ˆí˜¸");
 		lblNewLabel_5.setForeground(new Color(178, 34, 34));
-		lblNewLabel_5.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_5.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_5.setBounds(12, 189, 100, 15);
 		getContentPane().add(lblNewLabel_5);
 		
-		JLabel lblNewLabel_6 = new JLabel("ÁÖ¼Ò");
+		JLabel lblNewLabel_6 = new JLabel("ì£¼ì†Œ");
 		lblNewLabel_6.setForeground(new Color(178, 34, 34));
-		lblNewLabel_6.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		lblNewLabel_6.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		lblNewLabel_6.setBounds(12, 231, 100, 15);
 		getContentPane().add(lblNewLabel_6);
 		
 		idText = new JTextField();
 		idText.setForeground(new Color(219, 112, 147));
-		idText.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		idText.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		idText.setBounds(124, 40, 139, 21);
 		getContentPane().add(idText);
 		idText.setColumns(10);
 
 		nameText = new JTextField();
 		nameText.setForeground(new Color(219, 112, 147));
-		nameText.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		nameText.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		nameText.setBounds(124, 145, 139, 21);
 		getContentPane().add(nameText);
 		nameText.setColumns(10);
 		
 		telText = new JTextField();
 		telText.setForeground(new Color(219, 112, 147));
-		telText.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		telText.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		telText.setBounds(124, 183, 139, 21);
 		getContentPane().add(telText);
 		telText.setColumns(10);
 		
 		addrText = new JTextField();
 		addrText.setForeground(new Color(219, 112, 147));
-		addrText.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		addrText.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		addrText.setBounds(124, 225, 253, 21);
 		getContentPane().add(addrText);
 		addrText.setColumns(10);
 		
-		JButton b2 = new JButton("È¸¿ø°¡ÀÔ ¿Ï·á");
+		JButton b2 = new JButton("íšŒì›ê°€ì… ì™„ë£Œ");
 		b2.setBackground(new Color(255, 228, 225));
 		b2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -113,12 +113,11 @@ public class MembershipMain extends JFrame{
 				String selid = dto.getId();
 				
 				if(!pws.equals(pws2)) {
-					JOptionPane.showMessageDialog(null,"ºñ¹Ğ¹øÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù!!");
+					JOptionPane.showMessageDialog(null,"ë¹„ë°€ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤!!");
 					
 				}else if(id.equals(selid)){
-					JOptionPane.showMessageDialog(null,"¾ÆÀÌµğ Áßº¹Ã¼Å© ÇØÁÖ¼¼¿ä!!");
+					JOptionPane.showMessageDialog(null,"ì•„ì´ë”” ì¤‘ë³µì²´í¬ í•´ì£¼ì„¸ìš”!!");
 				}else {
-
 					dto.setId(id);
 					dto.setPw(pws);
 					dto.setName(name);
@@ -128,14 +127,13 @@ public class MembershipMain extends JFrame{
 					dispose();
 				}
 			}
-			
 		});
 		b2.setForeground(new Color(255, 105, 180));
-		b2.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		b2.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		b2.setBounds(124, 280, 119, 23);
 		getContentPane().add(b2);
 		
-		JButton b1 = new JButton("Áßº¹È®ÀÎ");
+		JButton b1 = new JButton("ì¤‘ë³µí™•ì¸");
 		b1.setBackground(new Color(255, 228, 225));
 		b1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -145,22 +143,22 @@ public class MembershipMain extends JFrame{
 				String id = dto.getId();
 				
 				if(inputId.equals(id)) {
-					JOptionPane.showMessageDialog(null, "Áßº¹µÆ½À´Ï´Ù.´Ù½ÃÀÔ·ÂÇÏ¼¼¿ä");
+					JOptionPane.showMessageDialog(null, "ì¤‘ë³µëìŠµë‹ˆë‹¤.ë‹¤ì‹œì…ë ¥í•˜ì„¸ìš”");
 				}else {
-					JOptionPane.showMessageDialog(null, "»ç¿ëÇÒ ¼ö ÀÖ´Â IDÀÔ´Ï´Ù.");
+					JOptionPane.showMessageDialog(null, "ì‚¬ìš©í•  ìˆ˜ ìˆëŠ” IDì…ë‹ˆë‹¤.");
 				}
 				
 				}
 		});
 		b1.setForeground(new Color(255, 105, 180));
-		b1.setFont(new Font("³ª´®°íµñ", Font.BOLD, 14));
+		b1.setFont(new Font("ë‚˜ëˆ”ê³ ë”•", Font.BOLD, 14));
 		b1.setBounds(288, 43, 100, 23);
 		getContentPane().add(b1);
 		
 		JToolBar toolBar = new JToolBar();
 		toolBar.setForeground(Color.BLACK);
-		toolBar.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 17));
-		toolBar.setToolTipText("È¸¿ø°¡ÀÔ");
+		toolBar.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 17));
+		toolBar.setToolTipText("íšŒì›ê°€ì…");
 		toolBar.setBackground(new Color(219, 112, 147));
 		toolBar.setBounds(0, 0, 400, 21);
 		getContentPane().add(toolBar);

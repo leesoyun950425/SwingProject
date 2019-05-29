@@ -26,30 +26,30 @@ public class BorderWrite extends JFrame{
 	
 	public BorderWrite() {
 		getContentPane().setBackground(new Color(255, 228, 225));
-		setTitle("°Ô½ÃÆÇ");
+		setTitle("ê²Œì‹œíŒ");
 		getContentPane().setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("<<<Á¦¸ñ>>>");
+		JLabel lblNewLabel = new JLabel("<<<ì œëª©>>>");
 		lblNewLabel.setForeground(new Color(219, 112, 147));
-		lblNewLabel.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 25));
+		lblNewLabel.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 25));
 		lblNewLabel.setBounds(17, 41, 161, 28);
 		getContentPane().add(lblNewLabel);
 		
 		titleText = new JTextField();
 		titleText.setForeground(new Color(255, 105, 180));
-		titleText.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
+		titleText.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 20));
 		titleText.setBounds(195, 42, 238, 33);
 		getContentPane().add(titleText);
 		titleText.setColumns(10);
 		
-		JLabel lblNewLabel_1 = new JLabel("<<<<<³»¿ë>>>>>");
+		JLabel lblNewLabel_1 = new JLabel("<<<<<ë‚´ìš©>>>>>");
 		lblNewLabel_1.setForeground(new Color(219, 112, 147));
-		lblNewLabel_1.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 22));
+		lblNewLabel_1.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 22));
 		lblNewLabel_1.setBounds(108, 95, 223, 31);
 		getContentPane().add(lblNewLabel_1);
 		
 		JTextArea contentText = new JTextArea();
-		contentText.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		contentText.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		contentText.setForeground(new Color(255, 105, 180));
 		contentText.setBounds(30, 150, 369, 206);
 		getContentPane().add(contentText);
@@ -58,7 +58,7 @@ public class BorderWrite extends JFrame{
 		
 		JLabel IdLb = new JLabel();
 		IdLb.setForeground(new Color(219, 112, 147));
-		IdLb.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 22));
+		IdLb.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 22));
 		IdLb.setBounds(184, 366, 106, 42);
 		getContentPane().add(IdLb);
 		IdLb.setText(inputBId);
@@ -70,7 +70,7 @@ public class BorderWrite extends JFrame{
 		
 		String today = year+"-"+month+"-"+day;
 		
-		JButton btnNewButton = new JButton("ÀÔ·Â");
+		JButton btnNewButton = new JButton("ì…ë ¥");
 		btnNewButton.setForeground(new Color(178, 34, 34));
 		btnNewButton.setBackground(new Color(255, 255, 255));
 		btnNewButton.addActionListener(new ActionListener() {
@@ -100,13 +100,13 @@ public class BorderWrite extends JFrame{
 				dispose();
 			}
 		});
-		btnNewButton.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 22));
+		btnNewButton.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 22));
 		btnNewButton.setBounds(140, 453, 129, 29);
 		getContentPane().add(btnNewButton);
 		
-		JLabel lblNewLabel_2 = new JLabel("\uC544\uC774\uB514 :");
+		JLabel lblNewLabel_2 = new JLabel("ì•„ì´ë”” :");
 		lblNewLabel_2.setForeground(new Color(219, 112, 147));
-		lblNewLabel_2.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 23));
+		lblNewLabel_2.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 23));
 		lblNewLabel_2.setBounds(63, 375, 129, 33);
 		getContentPane().add(lblNewLabel_2);
 		

@@ -22,7 +22,6 @@ public class JFrameMain extends JFrame{
 		getContentPane().setBackground(new Color(255, 182, 193));
 		
 	}
-	
 	public jpanelMenu Jpanel01 = null;
 	public jpanelshirt Jpanel02 = null;
 	public jpanelpants Jpanel03 = null;
@@ -57,30 +56,24 @@ public class JFrameMain extends JFrame{
 			repaint();
 			revalidate();
 		}
-		
 		getContentPane().setLayout(null);
-	
 	}
-	
 	public static void main(String[] args) {
 		
 		JFrameMain win = new JFrameMain();
 		
 		win.getContentPane().setLayout(null);
 		
-		win.setTitle("�޴�â");
+		win.setTitle("메뉴");
 		win.Jpanel01 = new jpanelMenu(win);
 		win.Jpanel02 = new jpanelshirt(win);
 		win.Jpanel03 = new jpanelpants(win);
 		win.Jpanel04 = new jpanelshose(win);
 		win.Jpanel05 = new jpanelouter(win);
 		
-		
 		win.getContentPane().add(win.Jpanel01);
 		win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		win.setSize(860, 900);
+		win.setSize(860, 600);
 		win.setVisible(true);
-		
-		
 	}
 }	

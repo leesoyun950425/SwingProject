@@ -23,7 +23,7 @@ public class jpanelSelect extends JFrame{
 
 	public jpanelSelect() {
 		getContentPane().setBackground(new Color(255, 228, 225));
-		getContentPane().setFont(new Font("±º∏≤", Font.BOLD, 15));
+		getContentPane().setFont(new Font("Íµ¥Î¶º", Font.BOLD, 15));
 		
 		realpname = jpanelMenu.pname1;
 		realprice = jpanelMenu.price1;
@@ -41,9 +41,9 @@ public class jpanelSelect extends JFrame{
 		
 		getContentPane().setLayout(null);
 		
-		JLabel lb1 = new JLabel("\uAC80\uC0C9\uACB0\uACFC");
+		JLabel lb1 = new JLabel("Í≤ÄÏÉâÍ≤∞Í≥º");
 		lb1.setForeground(new Color(178, 34, 34));
-		lb1.setFont(new Font("±º∏≤", Font.BOLD, 30));
+		lb1.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 30));
 		lb1.setHorizontalAlignment(SwingConstants.CENTER);
 		lb1.setBounds(0, 10, 520, 64);
 		getContentPane().add(lb1);
@@ -55,7 +55,7 @@ public class jpanelSelect extends JFrame{
 		
 		textField = new JTextField();
 		textField.setForeground(new Color(219, 112, 147));
-		textField.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField.setHorizontalAlignment(SwingConstants.CENTER);
 		textField.setBounds(259, 102, 226, 37);
 		textField.setText(realpname);
@@ -65,7 +65,7 @@ public class jpanelSelect extends JFrame{
 		
 		textField_1 = new JTextField();
 		textField_1.setForeground(new Color(219, 112, 147));
-		textField_1.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_1.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_1.setHorizontalAlignment(SwingConstants.CENTER);
 		textField_1.setColumns(10);
 		textField_1.setBounds(259, 175, 226, 37);
@@ -73,21 +73,21 @@ public class jpanelSelect extends JFrame{
 		getContentPane().add(textField_1);
 		textField_1.setEditable(false);
 		
-		JLabel lblNewLabel = new JLabel("\uC81C\uD488\uC774\uB984");
+		JLabel lblNewLabel = new JLabel("Ï†úÌíàÏù¥Î¶Ñ");
 		lblNewLabel.setForeground(new Color(178, 34, 34));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setFont(new Font("±º∏≤", Font.BOLD, 15));
+		lblNewLabel.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 15));
 		lblNewLabel.setBounds(172, 102, 75, 37);
 		getContentPane().add(lblNewLabel);
 		
-		JLabel label = new JLabel("\uC81C\uD488\uAC00\uACA9");
+		JLabel label = new JLabel("Ï†úÌíàÍ∞ÄÍ≤©");
 		label.setForeground(new Color(178, 34, 34));
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setFont(new Font("±º∏≤", Font.BOLD, 15));
+		label.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 15));
 		label.setBounds(172, 175, 75, 37);
 		getContentPane().add(label);
 		
-		JButton btnNewButton = new JButton("\uB2EB\uAE30");
+		JButton btnNewButton = new JButton("Îã´Í∏∞");
 		btnNewButton.setForeground(new Color(178, 34, 34));
 		btnNewButton.setBackground(new Color(255, 255, 255));
 		btnNewButton.addActionListener(new ActionListener() {
@@ -95,13 +95,10 @@ public class jpanelSelect extends JFrame{
 				dispose();
 			}
 		});
-		btnNewButton.setFont(new Font("±º∏≤", Font.BOLD, 25));
+		btnNewButton.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 25));
 		btnNewButton.setBounds(198, 315, 91, 55);
 		getContentPane().add(btnNewButton);
 		
-		
-		
 		setVisible(true);
-		
 	}
 }

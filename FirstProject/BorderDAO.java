@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class BorderDAO {
 	String url = "jdbc:mysql://localhost:3306/clothes";
 	String user = "root";
-	String password = "1234";
+	String password = "12345";
 	Connection con;
 	PreparedStatement ps;
 	ResultSet rs;

@@ -33,7 +33,4 @@ public class orrderDTO {
 	public void setUser(String user) {
 		this.user = user;
 	}
-	
-	
-	
 }

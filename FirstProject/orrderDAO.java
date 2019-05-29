@@ -11,7 +11,7 @@ public class orrderDAO {
 
 	String url = "jdbc:mysql://localhost:3306/clothes";
 	String user = "root";
-	String password = "1234";
+	String password = "12345";
 	Connection con;
 	PreparedStatement ps;
 	ResultSet rs;
@@ -21,14 +21,10 @@ public class orrderDAO {
 		orrderDTO dto = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			
 			con = DriverManager.getConnection(url, user, password);
-			
 			String sql = "select * from orrder";
 			ps = con.prepareStatement(sql);
-			
 			rs = ps.executeQuery();
-			
 			while(rs.next()) {
 				dto = new orrderDTO();
 				String pname = rs.getString(2);
@@ -39,7 +35,6 @@ public class orrderDAO {
 				dto.setUser(user);
 				list.add(dto);
 			}
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -56,18 +51,13 @@ public class orrderDAO {
 	public void insert(orrderDTO dto) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			
 			con = DriverManager.getConnection(url, user, password);
-			
 			String sql1 = "insert into orrder values (null,?,?,?)";
-			
 			ps = con.prepareStatement(sql1);
 			ps.setString(1, dto.getPname());
 			ps.setString(2, dto.getPrice());
 			ps.setString(3, dto.getUser());
-			
 			ps.executeUpdate();
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

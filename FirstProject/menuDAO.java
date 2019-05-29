@@ -11,7 +11,7 @@ public class menuDAO {
 
 	String url = "jdbc:mysql://localhost:3306/clothes";
 	String user = "root";
-	String password = "1234";
+	String password = "12345";
 	Connection con;
 	PreparedStatement ps;
 	ResultSet rs;
@@ -148,8 +148,8 @@ public class menuDAO {
 			rs = ps.executeQuery();
 			while(rs.next()) {
 				dto = new menuDTO();
-				String pname = rs.getString(1);
-				String price = rs.getString(2);
+				String pname = rs.getString(2);
+				String price = rs.getString(3);
 				String image = rs.getString(4);
 				dto.setPname(pname);
 				dto.setPrice(price);

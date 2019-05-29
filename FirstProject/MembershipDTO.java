@@ -1,6 +1,5 @@
 package FirstProject;
 
-
 public class MembershipDTO {
 	private String id;
 	private String pw;
@@ -8,11 +7,6 @@ public class MembershipDTO {
 	private String tel;
 	private String addr;
 	
-	
-	public MembershipDTO() {
-		
-	}
-
 	public String getId() {
 		return id;
 	}

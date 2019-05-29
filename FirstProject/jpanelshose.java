@@ -106,7 +106,7 @@ public class jpanelshose extends JPanel {
 		
 		textField = new JTextField();
 		textField.setForeground(new Color(178, 34, 34));
-		textField.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField.setBounds(475, 52, 144, 29);
 			textField.setText(dto.getPname());
 		add(textField);
@@ -116,17 +116,17 @@ public class jpanelshose extends JPanel {
 		
 		textField_1 = new JTextField();
 		textField_1.setForeground(new Color(178, 34, 34));
-		textField_1.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_1.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_1.setColumns(10);
 		textField_1.setBounds(475, 98, 144, 29);
-			textField_1.setText(dto.getPrice() + "ø¯");
+			textField_1.setText(dto.getPrice() + "Ïõê");
 		add(textField_1);
 		textField_1.getText();
 		textField_1.setEditable(false);
 		
 		textField_2 = new JTextField();
 		textField_2.setForeground(new Color(178, 34, 34));
-		textField_2.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_2.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_2.setColumns(10);
 		textField_2.setBounds(475, 187, 144, 29);
 			textField_2.setText(dto1.getPname());
@@ -135,16 +135,16 @@ public class jpanelshose extends JPanel {
 		
 		textField_3 = new JTextField();
 		textField_3.setForeground(new Color(178, 34, 34));
-		textField_3.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_3.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_3.setColumns(10);
 		textField_3.setBounds(475, 233, 144, 29);
-			textField_3.setText(dto1.getPrice() + "ø¯");
+			textField_3.setText(dto1.getPrice() + "Ïõê");
 		add(textField_3);
 		textField_3.setEditable(false);
 		
 		textField_4 = new JTextField();
 		textField_4.setForeground(new Color(178, 34, 34));
-		textField_4.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_4.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_4.setColumns(10);
 		textField_4.setBounds(475, 314, 144, 29);
 			textField_4.setText(dto2.getPname());
@@ -153,7 +153,7 @@ public class jpanelshose extends JPanel {
 		
 		textField_5 = new JTextField();
 		textField_5.setForeground(new Color(178, 34, 34));
-		textField_5.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_5.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_5.setColumns(10);
 		textField_5.setBounds(475, 366, 144, 29);
 			textField_5.setText(dto2.getPrice());
@@ -162,7 +162,7 @@ public class jpanelshose extends JPanel {
 		
 		textField_6 = new JTextField();
 		textField_6.setForeground(new Color(178, 34, 34));
-		textField_6.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_6.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_6.setColumns(10);
 		textField_6.setBounds(475, 444, 144, 29);
 			textField_6.setText(dto3.getPname());
@@ -171,7 +171,7 @@ public class jpanelshose extends JPanel {
 		
 		textField_7 = new JTextField();
 		textField_7.setForeground(new Color(178, 34, 34));
-		textField_7.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_7.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_7.setColumns(10);
 		textField_7.setBounds(475, 490, 144, 29);
 			textField_7.setText(dto3.getPrice());
@@ -180,7 +180,7 @@ public class jpanelshose extends JPanel {
 		
 		textField_8 = new JTextField();
 		textField_8.setForeground(new Color(178, 34, 34));
-		textField_8.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_8.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_8.setColumns(10);
 		textField_8.setBounds(475, 561, 144, 29);
 			textField_8.setText(dto4.getPname());
@@ -189,14 +189,14 @@ public class jpanelshose extends JPanel {
 		
 		textField_9 = new JTextField();
 		textField_9.setForeground(new Color(178, 34, 34));
-		textField_9.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		textField_9.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		textField_9.setColumns(10);
 		textField_9.setBounds(475, 607, 144, 29);
 			textField_9.setText(dto4.getPrice());
 		add(textField_9);
 		textField_9.setEditable(false);
 		
-		JButton b1 = new JButton("\uC120\uD0DD"); //º±≈√πˆ∆∞
+		JButton b1 = new JButton("\uC120\uD0DD"); //ÏÑ†ÌÉùÎ≤ÑÌäº
 		b1.setForeground(new Color(178, 34, 34));
 		b1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -205,7 +205,7 @@ public class jpanelshose extends JPanel {
 			}
 		});
 		b1.setBackground(new Color(255, 255, 255));
-		b1.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		b1.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		b1.setBounds(704, 65, 97, 42);
 		add(b1);
 		
@@ -217,7 +217,7 @@ public class jpanelshose extends JPanel {
 				SelectShose pay = new SelectShose();
 			}
 		});
-		b2.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		b2.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		b2.setBackground(new Color(255, 255, 255));
 		b2.setBounds(704, 199, 97, 42);
 		add(b2);
@@ -230,7 +230,7 @@ public class jpanelshose extends JPanel {
 				SelectShose pay = new SelectShose();
 			}
 		});
-		b3.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		b3.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		b3.setBackground(new Color(255, 255, 255));
 		b3.setBounds(704, 332, 97, 42);
 		add(b3);
@@ -243,7 +243,7 @@ public class jpanelshose extends JPanel {
 				SelectShose pay = new SelectShose();
 			}
 		});
-		b4.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		b4.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		b4.setBackground(new Color(255, 255, 255));
 		b4.setBounds(704, 455, 97, 42);
 		add(b4);
@@ -256,12 +256,12 @@ public class jpanelshose extends JPanel {
 				SelectShose pay = new SelectShose();
 			}
 		});
-		b5.setFont(new Font("±º∏≤", Font.BOLD, 20));
+		b5.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
 		b5.setBackground(new Color(255, 255, 255));
 		b5.setBounds(704, 575, 97, 42);
 		add(b5);
 		
-		b7 = new JButton("\uB4A4\uB85C"); //µ⁄∑Œ∞°±‚ πˆ∆∞
+		b7 = new JButton("\uB4A4\uB85C"); //Îí§Î°úÍ∞ÄÍ∏∞ Î≤ÑÌäº
 		b7.setForeground(new Color(178, 34, 34));
 		b7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -270,72 +270,70 @@ public class jpanelshose extends JPanel {
 			}
 		});
 		b7.setBackground(new Color(255, 255, 255));
-		b7.setFont(new Font("±º∏≤", Font.BOLD, 20));
-		b7.setBounds(345, 702, 123, 49);
+		b7.setFont(new Font("Íµ¥Î¶º", Font.BOLD, 20));
+		b7.setBounds(346, 646, 123, 49);
 		add(b7);
 		
 		lblNewLabel = new JLabel("\uC81C\uD488\uC774\uB984");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		lblNewLabel.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		lblNewLabel.setBounds(318, 52, 97, 29);
 		add(lblNewLabel);
 		
 		label = new JLabel("\uC81C\uD488\uAC00\uACA9");
 		label.setForeground(new Color(255, 255, 255));
-		label.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label.setBounds(318, 98, 97, 29);
 		add(label);
 		
 		label_1 = new JLabel("\uC81C\uD488\uC774\uB984");
 		label_1.setForeground(new Color(255, 255, 255));
-		label_1.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_1.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_1.setBounds(318, 188, 97, 29);
 		add(label_1);
 		
 		label_2 = new JLabel("\uC81C\uD488\uAC00\uACA9");
 		label_2.setForeground(new Color(255, 255, 255));
-		label_2.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_2.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_2.setBounds(318, 233, 97, 29);
 		add(label_2);
 		
 		label_3 = new JLabel("\uC81C\uD488\uC774\uB984");
 		label_3.setForeground(new Color(255, 255, 255));
-		label_3.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_3.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_3.setBounds(318, 314, 97, 29);
 		add(label_3);
 		
 		label_4 = new JLabel("\uC81C\uD488\uAC00\uACA9");
 		label_4.setForeground(new Color(255, 255, 255));
-		label_4.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_4.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_4.setBounds(318, 360, 97, 29);
 		add(label_4);
 		
 		label_5 = new JLabel("\uC81C\uD488\uC774\uB984");
 		label_5.setForeground(new Color(255, 255, 255));
-		label_5.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_5.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_5.setBounds(318, 445, 97, 29);
 		add(label_5);
 		
 		label_6 = new JLabel("\uC81C\uD488\uAC00\uACA9");
 		label_6.setForeground(new Color(255, 255, 255));
-		label_6.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_6.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_6.setBounds(318, 491, 97, 29);
 		add(label_6);
 		
 		label_7 = new JLabel("\uC81C\uD488\uC774\uB984");
 		label_7.setForeground(new Color(255, 255, 255));
-		label_7.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_7.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_7.setBounds(318, 561, 97, 29);
 		add(label_7);
 		
 		label_8 = new JLabel("\uC81C\uD488\uAC00\uACA9");
 		label_8.setForeground(new Color(255, 255, 255));
-		label_8.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.BOLD, 22));
+		label_8.setFont(new Font("ÎßëÏùÄ Í≥†Îîï", Font.BOLD, 22));
 		label_8.setBounds(318, 607, 97, 29);
 		add(label_8);
 		
 		setVisible(true);
-		
-		
 	}
 }

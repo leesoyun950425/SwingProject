@@ -15,30 +15,30 @@ public class LoginDelete extends JFrame{
 	private ProjectMain win2;
 	
 	public LoginDelete(ProjectMain win2) {
-		setTitle("\uD0C8\uD1F4\uCC3D");
+		setTitle("íƒˆí‡´ì°½");
 		getContentPane().setBackground(new Color(255, 228, 225));
 		this.win2 = win2;
 		getContentPane().setLayout(null);
 		setSize(430, 284);
 		
-		JLabel lblNewLabel = new JLabel("Á¤¸» Å»ÅğÇÏ½Ã°Ú½À´Ï±î?");
+		JLabel lblNewLabel = new JLabel("ì •ë§ íƒˆí‡´í•˜ì‹œê² ìŠµë‹ˆê¹Œ?");
 		lblNewLabel.setForeground(new Color(219, 112, 147));
-		lblNewLabel.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 25));
+		lblNewLabel.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 25));
 		lblNewLabel.setBounds(60, 65, 319, 33);
 		getContentPane().add(lblNewLabel);
 		
 		idLBel = new JLabel();
 		idLBel.setForeground(new Color(178, 34, 34));
-		idLBel.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
+		idLBel.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 20));
 		idLBel.setBounds(60, 29, 82, 21);
 		getContentPane().add(idLBel);
 		
 		inputDId = LoginMain2.inputId;
 		
-		JButton btnNewButton = new JButton("³×,ÁøÇàÇÒ°Ô¿ä.");
+		JButton btnNewButton = new JButton("ë„¤,ì§„í–‰í• ê²Œìš”.");
 		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setBackground(new Color(219, 112, 147));
-		btnNewButton.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MembershipDAO dao = new MembershipDAO();
@@ -58,10 +58,10 @@ public class LoginDelete extends JFrame{
 		btnNewButton.setBounds(36, 144, 153, 29);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("¾Æ´Ï¿ä.");
+		JButton btnNewButton_1 = new JButton("ì•„ë‹ˆìš”.");
 		btnNewButton_1.setForeground(new Color(255, 255, 255));
 		btnNewButton_1.setBackground(new Color(219, 112, 147));
-		btnNewButton_1.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton_1.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
@@ -70,9 +70,9 @@ public class LoginDelete extends JFrame{
 		btnNewButton_1.setBounds(232, 144, 129, 29);
 		getContentPane().add(btnNewButton_1);
 		
-		JLabel label = new JLabel("´Ô,");
+		JLabel label = new JLabel("ë‹˜,");
 		label.setForeground(new Color(219, 112, 147));
-		label.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
+		label.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 20));
 		label.setBounds(168, 31, 82, 21);
 		getContentPane().add(label);
 		

@@ -33,13 +33,13 @@ public class BorderMain extends JFrame{
 	Object cValue;
 
 	public BorderMain() {
-		setTitle("\uAC8C\uC2DC\uD310");
+		setTitle("ê²Œì‹œíŒ");
 		Dimension dim = new Dimension(500,500);
 		
 		setLocation(100,200);
 		setPreferredSize(dim);		
 		
-		String sub[] = {"¹øÈ£","Á¦¸ñ","»ç¿ëÀÚID","³¯Â¥","Á¶È¸¼ö"};
+		String sub[] = {"ë²ˆí˜¸","ì œëª©","ì‚¬ìš©ìID","ë‚ ì§œ","ì¡°íšŒìˆ˜"};
 		
 		model = new DefaultTableModel(sub,0);
 		BorderDAO dao = new BorderDAO();
@@ -52,7 +52,7 @@ public class BorderMain extends JFrame{
 		}
 		table = new JTable(model);
 		table.setForeground(new Color(178, 34, 34));
-		table.setFont(new Font("¸¼Àº °íµñ", Font.PLAIN, 15));
+		table.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.PLAIN, 15));
 		table.setBackground(new Color(255, 228, 225));
 		table.setBorder(new LineBorder(new Color(65, 105, 225)));
 		table.setBounds(23, 360, 349, -338);
@@ -73,14 +73,14 @@ public class BorderMain extends JFrame{
  			}
 		});
 		
-		JButton btnNewButton = new JButton("±Û¾²±â");
+		JButton btnNewButton = new JButton("ê¸€ì“°ê¸°");
 		btnNewButton.setBackground(new Color(255, 255, 255));
 		btnNewButton.setForeground(new Color(178, 34, 34));
-		btnNewButton.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(LoginMain2.l1.getText()==""||LoginMain2.l1.getText()==null) {
-					JOptionPane.showMessageDialog(null, "·Î±×ÀÎ ÇÏ°í ÀÛ¼ºÇØÁÖ¼¼¿ä!!");
+					JOptionPane.showMessageDialog(null, "ë¡œê·¸ì¸ í•˜ê³  ì‘ì„±í•´ì£¼ì„¸ìš”!!");
 				}else {
 					BorderWrite bw = new BorderWrite();
 				}
@@ -89,10 +89,10 @@ public class BorderMain extends JFrame{
 		btnNewButton.setBounds(23, 385, 97, 23);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("±Ûº¸±â");
+		JButton btnNewButton_1 = new JButton("ê¸€ë³´ê¸°");
 		btnNewButton_1.setBackground(new Color(255, 255, 255));
 		btnNewButton_1.setForeground(new Color(178, 34, 34));
-		btnNewButton_1.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton_1.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				BorderSelect bs = new BorderSelect();
@@ -111,10 +111,10 @@ public class BorderMain extends JFrame{
 		btnNewButton_1.setBounds(153, 385, 97, 23);
 		getContentPane().add(btnNewButton_1);
 		
-		JButton btnNewButton_2 = new JButton("\uC885\uB8CC");
+		JButton btnNewButton_2 = new JButton("ì¢…ë£Œ");
 		btnNewButton_2.setBackground(new Color(255, 255, 255));
 		btnNewButton_2.setForeground(new Color(178, 34, 34));
-		btnNewButton_2.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton_2.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();

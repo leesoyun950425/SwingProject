@@ -6,12 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-//import Project.MembershipDTO;
-
 public class MembershipDAO {
 	String url="jdbc:mysql://localhost:3306/clothes";
 	String user = "root";
-	String password = "1234";
+	String password = "12345";
 	Connection con;
 	PreparedStatement ps;
 	ResultSet rs;
@@ -22,7 +20,6 @@ public class MembershipDAO {
 			con = DriverManager.getConnection(url,user,password);
 			String sql = "insert into membership values(null,?,?,?,?,?)";
 			ps = con.prepareStatement(sql);
-//			ps.setInt(1, dto.getNum());
 			ps.setString(1, dto.getId());
 			ps.setString(2, dto.getPw());
 			ps.setString(3, dto.getName());

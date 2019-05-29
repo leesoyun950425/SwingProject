@@ -1,6 +1,5 @@
 package FirstProject;
 import java.util.ArrayList;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -13,13 +12,13 @@ public class MemberMy extends JFrame{
 	public MemberMy(){
 		getContentPane().setBackground(new Color(255, 228, 225));
 		
-		setTitle("¸¶ÀÌÆäÀÌÁö");
+		setTitle("ë§ˆì´í˜ì´ì§€");
 		getContentPane().setLayout(null);
 		
 		JTextArea memberlist = new JTextArea();
 		memberlist.setBackground(new Color(255, 228, 225));
 		memberlist.setForeground(new Color(178, 34, 34));
-		memberlist.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 20));
+		memberlist.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 20));
 		memberlist.setBounds(12, 20, 238, 225);
 		getContentPane().add(memberlist);
 		
@@ -33,21 +32,17 @@ public class MemberMy extends JFrame{
 		String tel =dto.getTel();
 		String addr = dto.getAddr();
 		
-		memberlist.append("¾ÆÀÌµğ : " +Uid+"\n");
+		memberlist.append("ì•„ì´ë”” : " +Uid+"\n");
 		memberlist.append("----------------------------"+"\n");
-		memberlist.append("ÀÌ¸§ : " +name+"\n");
+		memberlist.append("ì´ë¦„ : " +name+"\n");
 		memberlist.append("----------------------------"+"\n");
-		memberlist.append("ÀüÈ­¹øÈ£ : " +tel+"\n");
+		memberlist.append("ì „í™”ë²ˆí˜¸ : " +tel+"\n");
 		memberlist.append("----------------------------"+"\n");
-		memberlist.append("ÁÖ¼Ò : "+ addr+"\n");
+		memberlist.append("ì£¼ì†Œ : "+ addr+"\n");
 		memberlist.append("----------------------------"+"\n");
-		
 		
 		memberlist.setEditable(false);
 		setSize(275, 297);
-		
-		
 		setVisible(true);
-		
 	}
 }

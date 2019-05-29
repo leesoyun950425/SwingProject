@@ -18,7 +18,7 @@ public class BorderSelect extends JFrame{
 	static String uid1;
 	
 	public BorderSelect() {
-		setTitle("\uAC8C\uC2DC\uD310");
+		setTitle("ê²Œì‹œíŒ");
 		getContentPane().setBackground(new Color(255, 228, 225));
 		
 		inputNum = BorderMain.num;
@@ -35,25 +35,25 @@ public class BorderSelect extends JFrame{
 		
 		getContentPane().setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("<<\uC81C\uBAA9>>");
+		JLabel lblNewLabel = new JLabel("<<ì œëª©>>");
 		lblNewLabel.setForeground(new Color(219, 112, 147));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		lblNewLabel.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		lblNewLabel.setBounds(22, 23, 97, 23);
 		getContentPane().add(lblNewLabel);
 		
 		JLabel titleLb = new JLabel();
 		titleLb.setForeground(new Color(106, 90, 205));
 		titleLb.setHorizontalAlignment(SwingConstants.CENTER);
-		titleLb.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		titleLb.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		titleLb.setBounds(119, 23, 145, 23);
 		getContentPane().add(titleLb);
 		titleLb.setText(title1);
 		
 		
-		JLabel lblNewLabel_2 = new JLabel("<<<\uB0B4\uC6A9>>>");
+		JLabel lblNewLabel_2 = new JLabel("<<<ë‚´ìš©>>>");
 		lblNewLabel_2.setForeground(new Color(219, 112, 147));
-		lblNewLabel_2.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		lblNewLabel_2.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_2.setBounds(98, 48, 138, 23);
 		getContentPane().add(lblNewLabel_2);
@@ -61,34 +61,34 @@ public class BorderSelect extends JFrame{
 		conLb = new JLabel();
 		conLb.setBackground(new Color(255, 255, 255));
 		conLb.setForeground(new Color(106, 90, 205));
-		conLb.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		conLb.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		conLb.setHorizontalAlignment(SwingConstants.CENTER);
 		conLb.setBounds(22, 81, 296, 210);
 		getContentPane().add(conLb);
 		conLb.setText(content1);
 		
-		JLabel lblNewLabel_4 = new JLabel("\uC544\uC774\uB514 :");
+		JLabel lblNewLabel_4 = new JLabel("ì•„ì´ë”” :");
 		lblNewLabel_4.setForeground(new Color(219, 112, 147));
-		lblNewLabel_4.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		lblNewLabel_4.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		lblNewLabel_4.setBounds(61, 319, 72, 23);
 		getContentPane().add(lblNewLabel_4);
 		
 		JLabel idLb = new JLabel();
 		idLb.setHorizontalAlignment(SwingConstants.CENTER);
 		idLb.setForeground(new Color(106, 90, 205));
-		idLb.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 18));
+		idLb.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 18));
 		idLb.setBounds(145, 319, 102, 23);
 		getContentPane().add(idLb);
 		idLb.setText(uid1);
 		
-		JButton btnNewButton = new JButton("¼öÁ¤");
+		JButton btnNewButton = new JButton("ìˆ˜ì •");
 		btnNewButton.setForeground(new Color(178, 34, 34));
 		btnNewButton.setBackground(new Color(255, 255, 255));
-		btnNewButton.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(!uid1.equals(userid)) {
-					JOptionPane.showMessageDialog(null, "º»ÀÎÀÌ ÀÛ¼ºÇÑ °Ô½Ã¹°¸¸ ¼öÁ¤°¡´ÉÇÕ´Ï´Ù!!");
+					JOptionPane.showMessageDialog(null, "ë³¸ì¸ì´ ì‘ì„±í•œ ê²Œì‹œë¬¼ë§Œ ìˆ˜ì •ê°€ëŠ¥í•©ë‹ˆë‹¤!!");
 				}else {
 					BorderUpdate bu = new BorderUpdate();
 					dispose();
@@ -98,14 +98,14 @@ public class BorderSelect extends JFrame{
 		btnNewButton.setBounds(50, 364, 97, 23);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("»èÁ¦");
+		JButton btnNewButton_1 = new JButton("ì‚­ì œ");
 		btnNewButton_1.setForeground(new Color(178, 34, 34));
 		btnNewButton_1.setBackground(new Color(255, 255, 255));
-		btnNewButton_1.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 15));
+		btnNewButton_1.setFont(new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(!uid1.equals(userid)) {
-					JOptionPane.showMessageDialog(null, "º»ÀÎÀÌ ÀÛ¼ºÇÑ °Ô½Ã¹°¸¸ »èÁ¦°¡´ÉÇÕ´Ï´Ù!!");
+					JOptionPane.showMessageDialog(null, "ë³¸ì¸ì´ ì‘ì„±í•œ ê²Œì‹œë¬¼ë§Œ ì‚­ì œê°€ëŠ¥í•©ë‹ˆë‹¤!!");
 				}else {
 					BorderDelete bd = new BorderDelete();
 					dispose();
@@ -115,9 +115,5 @@ public class BorderSelect extends JFrame{
 		btnNewButton_1.setBounds(186, 364, 97, 23);
 		getContentPane().add(btnNewButton_1);
 		setVisible(true);
-	}
-	
-	public static void main(String[] args) {
-		BorderSelect name = new BorderSelect();
 	}
 }

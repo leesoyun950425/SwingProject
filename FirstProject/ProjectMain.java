@@ -29,7 +29,7 @@ public class ProjectMain extends JFrame{
 		
 		win2.login1 = new LoginMain(win2);
 		win2.login2 = new LoginMain2(win2);
-		win2.setTitle("·Î±×ÀÎÃ¢");
+		win2.setTitle("ì‡¼í•‘ëª°");
 		win2.getContentPane().add(win2.login1);
 		win2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		win2.setSize(350, 700);
